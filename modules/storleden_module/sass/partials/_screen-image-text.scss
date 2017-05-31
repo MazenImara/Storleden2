@@ -1,0 +1,15 @@
+#screenText{
+	
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    display: table;
+    height: 500px;
+    width: 100%;
+    color: white;
+
+    div{
+    	display: table-cell;
+    	vertical-align: middle;
+    }
+}

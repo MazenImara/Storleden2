@@ -1,0 +1,169 @@
+/* line 1, ../sass/partials/_latest-projects.scss */
+.projects {
+  padding: 25px;
+  text-align: center;
+}
+/* line 5, ../sass/partials/_latest-projects.scss */
+.projects img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 12, ../sass/partials/_latest-projects.scss */
+.projects .row {
+  margin: 25px 0px 25px 0px;
+}
+/* line 16, ../sass/partials/_latest-projects.scss */
+.projects button {
+  margin: 10px 0px 10px 0px;
+  background-color: #00c7fc;
+  border-radius: 17px;
+}
+/* line 21, ../sass/partials/_latest-projects.scss */
+.projects .cat {
+  position: absolute;
+  top: 9px;
+  left: 144px;
+  background-color: #00c7fc;
+  border: 1px solid #00b6e6;
+  padding: 0px 5px 0px 5px;
+}
+
+/* line 1, ../sass/partials/_screen-image-text.scss */
+#screenText {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  display: table;
+  height: 500px;
+  width: 100%;
+  color: white;
+}
+/* line 11, ../sass/partials/_screen-image-text.scss */
+#screenText div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 1, ../sass/partials/_tjanster.scss */
+.tjanster {
+  margin-top: 50px;
+  text-align: center;
+}
+/* line 6, ../sass/partials/_tjanster.scss */
+.tjanster img {
+  width: 80px;
+}
+/* line 9, ../sass/partials/_tjanster.scss */
+.tjanster a {
+  text-decoration: none;
+}
+/* line 12, ../sass/partials/_tjanster.scss */
+.tjanster a:hover {
+  text-decoration: none;
+  font-size: 12px;
+}
+/* line 15, ../sass/partials/_tjanster.scss */
+.tjanster a:hover img {
+  width: 90px;
+}
+/* line 19, ../sass/partials/_tjanster.scss */
+.tjanster .tjanst {
+  display: table;
+  margin: 0 auto;
+  width: 250px;
+  font-size: 11px;
+}
+/* line 25, ../sass/partials/_tjanster.scss */
+.tjanster .row {
+  margin-top: 50px;
+}
+
+/* line 30, ../sass/partials/_tjanster.scss */
+#tjanster {
+  padding: 20px;
+  text-align: center;
+  background: radial-gradient(circle, rgba(255, 254, 254, 0), rgba(189, 189, 189, 0.5), #a0a0a0);
+}
+/* line 35, ../sass/partials/_tjanster.scss */
+#tjanster hr {
+  width: 197px;
+  margin-top: 0px;
+  margin-bottom: -50px;
+  border-top: solid #0cf;
+}
+/* line 43, ../sass/partials/_tjanster.scss */
+#tjanster button {
+  margin: 47px 0px 32px 0px;
+  background-color: #00c7fc;
+  border-radius: 17px;
+}
+
+/* line 1, ../sass/partials/_text-slider.scss */
+#textslider {
+  color: white;
+}
+/* line 3, ../sass/partials/_text-slider.scss */
+#textslider .carousel-inner {
+  height: 177px;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95), #000000);
+}
+/* line 7, ../sass/partials/_text-slider.scss */
+#textslider a {
+  color: white;
+}
+
+/* line 1, ../sass/partials/_our-products.scss */
+#ourproducts {
+  padding: 20px;
+  text-align: center;
+}
+/* line 6, ../sass/partials/_our-products.scss */
+#ourproducts hr {
+  width: 300px;
+  margin-top: 0px;
+  margin-bottom: -50px;
+  border-top: solid #0cf;
+}
+/* line 15, ../sass/partials/_our-products.scss */
+#ourproducts .textDiv {
+  text-align: justify;
+}
+/* line 21, ../sass/partials/_our-products.scss */
+#ourproducts .title {
+  display: table;
+  margin: 0 auto;
+}
+/* line 25, ../sass/partials/_our-products.scss */
+#ourproducts img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 31, ../sass/partials/_our-products.scss */
+#ourproducts .carousel-inner {
+  margin-top: 20px;
+}
+/* line 35, ../sass/partials/_our-products.scss */
+#ourproducts .row {
+  height: 500px;
+  padding: 70px;
+  margin-bottom: 45px;
+}
+/* line 40, ../sass/partials/_our-products.scss */
+#ourproducts .carousel-indicators .active {
+  background-color: #00c7fc;
+}
+/* line 43, ../sass/partials/_our-products.scss */
+#ourproducts .carousel-indicators li {
+  border: 1px solid #00c7fc;
+}
+/* line 47, ../sass/partials/_our-products.scss */
+#ourproducts button {
+  float: left;
+  margin: 27px 0px 10px 0px;
+  background-color: #00c7fc;
+  border-radius: 18px;
+  padding: 7px 20px 7px 22px;
+}
