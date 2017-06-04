@@ -1,0 +1,16 @@
+<div{{ attributes }} class="storledenFooter">
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+
+  <div class="social">
+  <div class="title">Vi är sociala</div>
+  	<img src=" {{ directory }}/images/icons/Icon-facebook.png">
+  	<img src=" {{ directory }}/images/icons/Icon-twitter.png">
+  </div>
+</div>

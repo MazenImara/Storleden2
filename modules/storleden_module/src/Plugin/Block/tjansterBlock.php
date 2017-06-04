@@ -26,10 +26,10 @@ class tjansterBlock extends BlockBase {
             '#theme' => 'tjanster',            
             '#nodes' => $nodes,
             '#attached' => array(
-        'library' => array(
-          'storleden_module/storleden_lib',
-        ),
-      ),
+                  'library' => array(
+                  'storleden_module/storleden_lib',
+                ),
+            ),
         );
   }
 

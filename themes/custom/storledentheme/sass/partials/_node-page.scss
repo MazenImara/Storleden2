@@ -1,0 +1,39 @@
+.block-page-title-block{
+	text-align: center;
+	hr{
+		width: 84px;
+	    margin-top: -10px;
+	    border-top: solid #0cf;
+	}
+}
+
+.node__content{
+	padding:0% 5% 0% 5%;
+	.field--name-field-ingress{
+		display: table;
+    	margin: auto;
+	    margin-bottom: 54px;
+    	margin-top: -23px;
+	}
+	.field--type-image{
+		width: 99%;
+	}
+	img{
+		display: block;
+    	margin: 0 auto;
+    	width:50%;
+    	margin-bottom: 25px;
+	}
+	.field__label{
+		display: none;
+	}
+}
+
+.kontakt-for-test{
+	input{		
+		border:none;
+		border-bottom: 1px solid #ccc;
+		margin-right: 10%;
+	}	
+	
+}

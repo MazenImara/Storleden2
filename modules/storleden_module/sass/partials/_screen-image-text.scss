@@ -7,9 +7,34 @@
     height: 500px;
     width: 100%;
     color: white;
+    margin: -10px 0px -10px 0px;
 
-    div{
-    	display: table-cell;
-    	vertical-align: middle;
+
+    
+
+    button{
+        color: black;
+        margin-top: 8%;
+        margin-right: 4%;
+        border-radius: 20px;
     }
+
+
+    
+}
+
+.screen-title{
+    display: table;
+    margin: auto;
+    hr{
+        margin-top: -10px;
+        margin-bottom: 3px;
+        border: 0;
+        border-top: 3px solid #ffffff;
+    }
+}
+
+.middle{
+    display: table-cell;
+    vertical-align: middle;
 }

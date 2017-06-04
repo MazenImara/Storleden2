@@ -7,4 +7,10 @@
 	a {
 		color: white;
 	}
+	.carousel-indicators .active {    
+    	background-color: #00c7fc;
+	}
+	.carousel-indicators li {    
+    	border: 1px solid #00c7fc;    
+	}
 }

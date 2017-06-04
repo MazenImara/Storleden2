@@ -1,0 +1,23 @@
+.kontakt-for-test{
+	.submit-btn{
+		display: table;
+		margin: auto;
+		input{
+			background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+		    color: white;
+		    width: 100px;
+		    height: 41px;
+		    border-radius: 20px;
+		}
+		input:hover{
+			background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+			box-shadow: 0 4px 8px 0 rgb(0, 195, 255);
+		}
+	}
+	
+	input{		
+		border:none;
+		border-bottom: 1px solid #ccc;
+		margin-right: 10%;
+	}	
+}

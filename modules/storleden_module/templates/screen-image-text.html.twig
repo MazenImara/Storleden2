@@ -5,11 +5,18 @@
 
 
 <div id="screenText" >
-	<div >
-		<h2> {{ node.screenTextTitle }}</h2>
-		{{ node.screenText }}		
+	<div class="middle">
+		<div class="screen-title">
+			<h2> {{ node.screenTextTitle }}</h2>
+			<hr>
+		</div>
+		
+		<h3>{{ node.screenText }}<br></h3>
+		{% for link in node.links %}
+
+		    <a href=" {{link.url}} "><button class="btn">{{link.value}}</button> </a>
+		{% endfor %}			
 	</div>
-	
 </div>
 
 

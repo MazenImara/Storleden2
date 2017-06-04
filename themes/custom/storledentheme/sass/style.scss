@@ -1,22 +1,5 @@
-/* Vendor */
-@import "susy";
-@import "su";
 
-
-/* Setup */
-@import "reset";
-@import "mixins";
-@import "variables";
-@import "fonts";
-@import "globals";
-
-
-/* WP parts */
-@import "header";
-@import "homepage";
-@import "sidebar";
-@import "footer";
-
-
-
-
+@import 'partials/front-page';
+@import 'partials/header';
+@import 'partials/node-page';
+@import 'partials/footer';

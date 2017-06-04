@@ -3,4 +3,6 @@ storleden_lib:
   css:
     layout:
       css/storleden-module-style.css: {}
-
+  js:
+    js/bootstrap.js: {}
+    js/main.js: {}

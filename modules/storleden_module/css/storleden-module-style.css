@@ -39,9 +39,31 @@
   height: 500px;
   width: 100%;
   color: white;
+  margin: -10px 0px -10px 0px;
 }
-/* line 11, ../sass/partials/_screen-image-text.scss */
-#screenText div {
+/* line 15, ../sass/partials/_screen-image-text.scss */
+#screenText button {
+  color: black;
+  margin-top: 8%;
+  margin-right: 4%;
+  border-radius: 20px;
+}
+
+/* line 26, ../sass/partials/_screen-image-text.scss */
+.screen-title {
+  display: table;
+  margin: auto;
+}
+/* line 29, ../sass/partials/_screen-image-text.scss */
+.screen-title hr {
+  margin-top: -10px;
+  margin-bottom: 3px;
+  border: 0;
+  border-top: 3px solid #ffffff;
+}
+
+/* line 37, ../sass/partials/_screen-image-text.scss */
+.middle {
   display: table-cell;
   vertical-align: middle;
 }
@@ -113,57 +135,90 @@
 #textslider a {
   color: white;
 }
+/* line 10, ../sass/partials/_text-slider.scss */
+#textslider .carousel-indicators .active {
+  background-color: #00c7fc;
+}
+/* line 13, ../sass/partials/_text-slider.scss */
+#textslider .carousel-indicators li {
+  border: 1px solid #00c7fc;
+}
 
-/* line 1, ../sass/partials/_our-products.scss */
+/* line 1, ../sass/partials/_our-products-slider.scss */
 #ourproducts {
   padding: 20px;
   text-align: center;
 }
-/* line 6, ../sass/partials/_our-products.scss */
+/* line 6, ../sass/partials/_our-products-slider.scss */
 #ourproducts hr {
   width: 300px;
   margin-top: 0px;
   margin-bottom: -50px;
   border-top: solid #0cf;
 }
-/* line 15, ../sass/partials/_our-products.scss */
+/* line 15, ../sass/partials/_our-products-slider.scss */
 #ourproducts .textDiv {
   text-align: justify;
 }
-/* line 21, ../sass/partials/_our-products.scss */
+/* line 21, ../sass/partials/_our-products-slider.scss */
 #ourproducts .title {
   display: table;
   margin: 0 auto;
 }
-/* line 25, ../sass/partials/_our-products.scss */
+/* line 25, ../sass/partials/_our-products-slider.scss */
 #ourproducts img {
   width: 500px;
   display: block;
   margin: 0 auto;
 }
-/* line 31, ../sass/partials/_our-products.scss */
+/* line 31, ../sass/partials/_our-products-slider.scss */
 #ourproducts .carousel-inner {
   margin-top: 20px;
 }
-/* line 35, ../sass/partials/_our-products.scss */
+/* line 35, ../sass/partials/_our-products-slider.scss */
 #ourproducts .row {
   height: 500px;
   padding: 70px;
   margin-bottom: 45px;
 }
-/* line 40, ../sass/partials/_our-products.scss */
+/* line 40, ../sass/partials/_our-products-slider.scss */
 #ourproducts .carousel-indicators .active {
   background-color: #00c7fc;
 }
-/* line 43, ../sass/partials/_our-products.scss */
+/* line 43, ../sass/partials/_our-products-slider.scss */
 #ourproducts .carousel-indicators li {
   border: 1px solid #00c7fc;
 }
-/* line 47, ../sass/partials/_our-products.scss */
+/* line 47, ../sass/partials/_our-products-slider.scss */
 #ourproducts button {
   float: left;
   margin: 27px 0px 10px 0px;
   background-color: #00c7fc;
   border-radius: 18px;
   padding: 7px 20px 7px 22px;
+}
+
+/* line 2, ../sass/partials/_kontakt-for-test.scss */
+.kontakt-for-test .submit-btn {
+  display: table;
+  margin: auto;
+}
+/* line 5, ../sass/partials/_kontakt-for-test.scss */
+.kontakt-for-test .submit-btn input {
+  background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+  color: white;
+  width: 100px;
+  height: 41px;
+  border-radius: 20px;
+}
+/* line 12, ../sass/partials/_kontakt-for-test.scss */
+.kontakt-for-test .submit-btn input:hover {
+  background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+  box-shadow: 0 4px 8px 0 #00c3ff;
+}
+/* line 18, ../sass/partials/_kontakt-for-test.scss */
+.kontakt-for-test input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 10%;
 }
