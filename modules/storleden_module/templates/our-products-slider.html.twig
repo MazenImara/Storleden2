@@ -16,10 +16,10 @@
             {% if loop.index == 1 %}
                 <div class="item active" style="padding: 5px;">
                 	<div class="row">
-                		<div class="col-lg-6">
+                		<div class="col-sm-6">
                 		<img src="{{ node.img }}" >
                 		</div>
-                		<div class="col-lg-6">
+                		<div class="col-sm-6">
                 			<div class="title" >
                     		<h3><a href="node/{{ node.id}}">{{ node.title}}</a></h3>
                     		</div>
@@ -32,10 +32,10 @@
             {% else %}
                 <div class="item" style="padding: 5px;">
                     <div class="row">
-                		<div class="col-lg-6">
+                		<div class="col-sm-6">
                 			<img src="{{ node.img }}" >
                 		</div>
-                		<div class="col-lg-6">
+                		<div class="col-sm-6">
                 			<div class="title" >
                     		<h3><a href="node/{{ node.id}}">{{ node.title}}</a></h3>
                     		</div>
@@ -61,7 +61,3 @@
 </div>
 
 
-<script type="text/javascript">
-	
-</script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">

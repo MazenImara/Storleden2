@@ -55,7 +55,7 @@ class tjansterBlock extends BlockBase {
       array_push($nodesArray,
         [
           'title' => $item->title->value , 
-          'teaser' => $item->field_teaser->value, 
+          'ingress' => $item->field_ingress->value, 
           'id' =>  $item->id(),
           'img' => file_create_url($item->field_image->entity->getFileUri())         
           ]

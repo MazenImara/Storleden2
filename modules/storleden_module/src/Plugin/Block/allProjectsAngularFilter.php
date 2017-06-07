@@ -56,10 +56,10 @@ class allProjectsAngularFilter extends BlockBase {
       array_push($nodesArray,
         [
           'title' => $node->title->value , 
-          'teaser' => $node->field_teaser->value, 
+          'ingress' => $node->field_ingress->value, 
           'id' =>  $node->id(),
           'img' => file_create_url($node->field_image->entity->getFileUri()),
-          'cat' => $node->field_project_category->value,        
+          'cat' => $node->field_category->value,        
           ]
         ) ;
 

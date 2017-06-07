@@ -1,10 +1,6 @@
 .block-page-title-block{
 	text-align: center;
-	hr{
-		width: 84px;
-	    margin-top: -10px;
-	    border-top: solid #0cf;
-	}
+	
 }
 
 .node__content{
@@ -14,6 +10,7 @@
     	margin: auto;
 	    margin-bottom: 54px;
     	margin-top: -23px;
+    	text-align: center;
 	}
 	.field--type-image{
 		width: 99%;
@@ -36,4 +33,38 @@
 		margin-right: 10%;
 	}	
 	
+}
+
+.page-title{
+	font-size: 35px;
+    display: inline-table;
+	hr{
+		
+	    margin-top: 0px;
+	    border-top: solid #0cf;
+	}
+}
+
+
+.node--type-tjanster{
+	img{
+		width: 25%;
+	}
+}
+
+
+.title{
+	display: table;
+	margin: 20px auto;
+	hr{
+		
+	    
+	    border-top: solid #0cf;
+	}
+}
+
+.kontakt-page{
+	div{
+		margin-top: 3px;
+	}
 }

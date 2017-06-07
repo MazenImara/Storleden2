@@ -1,145 +1,33 @@
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<div class="container">
+        <div class="row"> 
+
+        <div align="center" class="btn-group filterDiv" role="group">
+            <button class="btn btn-default  label1" >FILTRERA<span class="glyphicon glyphicon-filter"></span></button>
+            <button class="btn btn-default label2" ><span class="glyphicon glyphicon-triangle-right"></button>
+            <button class="btn btn-default filter-button mybtn all" data-filter="all">All</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Webb">Webb</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="App">App</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="System">System</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Vidareutveckling">Vidareutveckling</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Teknisklösning">Teknisk lösning</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Film">Film</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Reklamfilm">Reklamfilm</button>
+        </div>
+        <br/>
+
+            {% for node in nodes %}
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {{node.cat}} ">
+                    <img src=" {{node.img}} " class="img-responsive">
+                </div>                
+            {% endfor %}
 
 
+        </div>
+    </div>
+
+   
 
 
+   
 
-
-
-<script type="text/javascript">
-	
-	var app = angular.module('app1', []);
-
-       
-          app.controller('cntrl1',  function($scope){
-          	
-          	$scope.m = 'test';
-            $scope.nodes = [
-            	{% for node in nodes %}
-    				{ id: '{{ node.id }}', title: '{{ node.title }}', teaser: '{{ node.teaser }}', img: '{{ node.img }}', cat: '{{ node.cat }}' },
-				{% endfor %}
-            ];
-            
-            // this is for radio button
-            $('#option1').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-    		$('#option2').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-    		$('#option3').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-    		$('#option4').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-    		$('#option5').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-    		$('#option6').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-    		$('#option7').click(function(){            	
-            	$('label').removeClass('active');
-        		$(this).parent().addClass('active');
-    		});
-
-
-        });
-
-
-
-
-</script>
-
-
-
-<h1>PORTFOLIO</h1>
-
-
-{% verbatim %} 
-<div  ng-app="app1" >
-
-
-
-<!-- this the filter buttons -->
-
-
-
-
-<div class="centerDiv" data-toggle="buttons" >
-	  <label class="btn btn-primary active" >
-	    <input type="radio" name="options" id="option1" autocomplete="off" checked value="" ng-model="cat"> Alla
-	  </label>
-	  <label class="btn btn-primary">
-	    <input type="radio" name="options" id="option2" autocomplete="off" value="Webb" ng-model="cat"> Webb
-	  </label>
-	  <label class="btn btn-primary">
-	    <input type="radio" name="options" id="option3" autocomplete="off" value="App" ng-model="cat"> App
-	  </label>
-	  <label class="btn btn-primary">
-	    <input type="radio" name="options" id="option4" autocomplete="off" value="System" ng-model="cat"> System
-	  </label>
-	  <label class="btn btn-primary">
-	    <input type="radio" name="options" id="option5" autocomplete="off" value="Vidareutveckling" ng-model="cat"> Vidareutveckling
-	  </label>
-	  <label class="btn btn-primary">
-	    <input type="radio" name="options" id="option6" autocomplete="off" value="Film" ng-model="cat"> Film
-	  </label>
-	  <label class="btn btn-primary">
-	    <input type="radio" name="options" id="option7" autocomplete="off" value="Reklamfilm" ng-model="cat"> Reklamfilm
-	  </label>
-	  <input class="searchField" type="text" ng-model="cat" placeholder="Searsh by words" size="10">
-	</div>
-
-
-	<div class="centerDiv">
-		<!-- this is all projects reneder by angular -->
-		<div ng-controller="cntrl1" >
-			
-
-			<div ng-repeat="node in nodes | filter : cat : title ">
-				<div class="divs">
-					<a href="node/{{node.id}}">
-						<img src="{{node.img}}">
-						<h4>{{node.title}}</h4>
-		      			{{node.teaser}}
-					</a>
-					
-		      		
-		      		
-				</div>
-		    </div>
-		</div>
-		
-
-
-
-
-
-	</div>
-	{% endverbatim %}
-</div>
-
-
-
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
-
-  
-
-
- <style type="text/css">
-	
-	
-
-</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">

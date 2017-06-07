@@ -1,3 +1,10 @@
+/* line 1, ../sass/partials/_global-for-module.scss */
+input.form-text, input.form-email {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 10%;
+}
+
 /* line 1, ../sass/partials/_latest-projects.scss */
 .projects {
   padding: 25px;
@@ -143,6 +150,25 @@
 #textslider .carousel-indicators li {
   border: 1px solid #00c7fc;
 }
+/* line 17, ../sass/partials/_text-slider.scss */
+#textslider img {
+  float: right;
+  width: 130px;
+  margin-top: 17px;
+}
+
+/* line 24, ../sass/partials/_text-slider.scss */
+.item-text {
+  text-align: left;
+  text-justify: inter-word;
+}
+
+/* line 30, ../sass/partials/_text-slider.scss */
+.inner {
+  width: 800px;
+  display: table;
+  margin: auto;
+}
 
 /* line 1, ../sass/partials/_our-products-slider.scss */
 #ourproducts {
@@ -221,4 +247,151 @@
   border: none;
   border-bottom: 1px solid #ccc;
   margin-right: 10%;
+}
+
+/* line 2, ../sass/partials/_allprojects.scss */
+.port-image {
+  width: 100%;
+}
+
+/* line 7, ../sass/partials/_allprojects.scss */
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+/* line 12, ../sass/partials/_allprojects.scss */
+.filterDiv.btn-group {
+  display: table;
+  margin: auto;
+}
+
+/* line 17, ../sass/partials/_allprojects.scss */
+.mybtn.btn-default, .label2.btn-default {
+  padding: 6px 10px;
+  margin: 10px 0px 20px 0px;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #00c3ff;
+  border-color: #00c3ff;
+}
+
+/* line 26, ../sass/partials/_allprojects.scss */
+.mybtn.btn-default:hover, .mybtn.btn-default:focus, .mybtn.btn-default:active, .mybtn.btn-default.active, .open > .mybtn.btn-default.dropdown-toggle {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+/* line 32, ../sass/partials/_allprojects.scss */
+.label1.btn-default {
+  padding: 6px 14px;
+  margin: 10px 0px 20px 0px;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: black;
+  border-color: black;
+}
+/* line 39, ../sass/partials/_allprojects.scss */
+.label1.btn-default span {
+  margin-left: 4px;
+}
+
+/* line 43, ../sass/partials/_allprojects.scss */
+.label1.btn-default:hover, .label1.btn-default:focus, .label1.btn-default:active, .label1.btn-default.active, .open > .label1.btn-default.dropdown-toggle {
+  padding: 6px 14px;
+  margin: 10px 0px 20px 0px;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: black;
+  border-color: black;
+}
+
+/* line 53, ../sass/partials/_allprojects.scss */
+.label2.btn-default:hover, .label2.btn-default:focus, .label2.btn-default:active, .label2.btn-default.active, .open > .label2.btn-default.dropdown-toggle {
+  padding: 6px 10px;
+  margin: 10px 0px 20px 0px;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #00c3ff;
+  border-color: #00c3ff;
+}
+
+/* line 62, ../sass/partials/_allprojects.scss */
+.label2 {
+  height: 34px;
+}
+/* line 64, ../sass/partials/_allprojects.scss */
+.label2 span {
+  font-size: 35px;
+  margin: -8px 4px 0px -21px;
+  color: black;
+}
+
+/* line 4, ../sass/partials/_kontakt.scss */
+.kontakt .ingress {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 9, ../sass/partials/_kontakt.scss */
+.kontakt input.form-text, .kontakt input.form-email {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 10%;
+}
+/* line 15, ../sass/partials/_kontakt.scss */
+.kontakt .submit-btn {
+  display: table;
+  margin: auto;
+}
+/* line 18, ../sass/partials/_kontakt.scss */
+.kontakt .submit-btn input {
+  background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+  color: white;
+  width: 100px;
+  height: 41px;
+  border-radius: 20px;
+}
+/* line 25, ../sass/partials/_kontakt.scss */
+.kontakt .submit-btn input:hover {
+  background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+  box-shadow: 0 4px 8px 0 #00c3ff;
+}
+/* line 41, ../sass/partials/_kontakt.scss */
+.kontakt .checkboxes .form-checkboxes .form-item, .kontakt .checkboxes .form-radios .form-item {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  display: inline-flex;
+  margin-right: 50px;
+}
+
+/* line 53, ../sass/partials/_kontakt.scss */
+.har-finns-vi {
+  margin-top: 100px;
+  text-align: center;
+}
+/* line 56, ../sass/partials/_kontakt.scss */
+.har-finns-vi div {
+  margin-top: 20px;
+}
+/* line 60, ../sass/partials/_kontakt.scss */
+.har-finns-vi .adress {
+  width: 137px;
+  display: table;
+  margin: auto;
+}
+
+/* line 69, ../sass/partials/_kontakt.scss */
+.title {
+  display: table;
+  margin: auto;
+}
+/* line 72, ../sass/partials/_kontakt.scss */
+.title hr {
+  margin-top: -13px;
+  border-top: solid #0cf;
+}
+
+/* line 79, ../sass/partials/_kontakt.scss */
+.jobba-hos-oss {
+  margin-top: 100px;
 }

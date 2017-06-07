@@ -13,4 +13,22 @@
 	.carousel-indicators li {    
     	border: 1px solid #00c7fc;    
 	}
+
+	img{
+		float: right;
+    	width: 130px;
+    	margin-top: 17px;
+	}
+}
+
+.item-text{
+	
+	text-align: left;
+	text-justify: inter-word; 
+}
+
+.inner{
+	width: 800px;
+	display:table;
+	margin:auto;
 }

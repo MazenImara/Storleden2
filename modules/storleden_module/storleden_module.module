@@ -41,6 +41,13 @@ function storleden_module_theme($existing, $type, $theme, $path) {
 	    						'variables' => array(
 	    										  'form' => 'form'
 	    										)
+	    					),
+	    'kontakt' => array(
+	    						'variables' => array(
+	    										  'form' => 'default value'
+	    										)
 	    					),	    						    						
     	);
 }
+
+

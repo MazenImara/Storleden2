@@ -53,14 +53,14 @@ class screenImageTextBlock extends BlockBase {
             $imgurl = file_create_url($file->getFileUri());
           }
           else{
-            $imgurl='any.jpg';
+            $imgurl= drupal_get_path('module', 'storleden_module') . '/images/startslide.jpg';
           } 
             
           
           
       }
       else {
-        $imgurl = 'any.jpg';
+        $imgurl = drupal_get_path('module', 'storleden_module') . '/images/startslide.jpg';
       }
       
 

@@ -53,11 +53,17 @@ class textSliderBlock extends BlockBase {
     
 
     foreach ($nodes as $item ) {
+      $img = null;
+      if (isset($item->field_image->entity) && !empty($item->field_image->entity)) {
+        $img = file_create_url($item->field_image->entity->getFileUri());
+      }
+
       array_push($nodesArray,
         [
           'title' => $item->title->value , 
-          'body' => substr($item->body->value, 0, 200) , 
-          'id' =>  $item->id(),          
+          'body' => substr($item->field_ingress->value, 0, 200) , 
+          'id' =>  $item->id(),
+          'img' => $img ,          
           ]
         ) ;
 

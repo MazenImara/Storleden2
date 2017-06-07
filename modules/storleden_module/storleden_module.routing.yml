@@ -5,3 +5,11 @@ storleden_module.form:
     _form: '\Drupal\storleden_module\Form\kontaktForTestForm'
   requirements:
     _permission: 'access content'
+
+storleden_module.form2:
+  path: '/kontaktform'
+  defaults:
+    _title: 'Kontakt '
+    _form: '\Drupal\storleden_module\Form\kontaktForm'
+  requirements:
+    _permission: 'access content'
