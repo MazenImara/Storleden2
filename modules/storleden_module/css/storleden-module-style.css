@@ -36,6 +36,32 @@ input.form-text, input.form-email {
   border: 1px solid #00b6e6;
   padding: 0px 5px 0px 5px;
 }
+/* line 31, ../sass/partials/_latest-projects.scss */
+.projects .over {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(31, 174, 225, 0.89);
+  color: white;
+  text-align: left;
+  padding: 15px;
+  display: none;
+}
+/* line 43, ../sass/partials/_latest-projects.scss */
+.projects .outer {
+  display: table;
+  margin: auto;
+}
+/* line 49, ../sass/partials/_latest-projects.scss */
+.projects .over-title {
+  margin-top: 60px;
+  font-weight: 900;
+}
+/* line 54, ../sass/partials/_latest-projects.scss */
+.projects .ingress {
+  margin-top: 36px;
+}
 
 /* line 1, ../sass/partials/_screen-image-text.scss */
 #screenText {
@@ -165,7 +191,7 @@ input.form-text, input.form-email {
 
 /* line 30, ../sass/partials/_text-slider.scss */
 .inner {
-  width: 800px;
+  width: 667px;
   display: table;
   margin: auto;
 }

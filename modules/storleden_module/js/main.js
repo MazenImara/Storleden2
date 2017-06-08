@@ -31,5 +31,15 @@ jQuery(document).ready(function($) {
         $(".filter-button").removeClass('label1');
         $(this).addClass('label1');
     })
+
+
+
+    // for projects over 
+    $('.outer').hover(function () {
+        $(this).find('.over').toggle( "clip" );
+        
+    })
+
+
     
 });

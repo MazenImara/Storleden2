@@ -59,7 +59,8 @@ class latestProjectsBlock extends BlockBase {
           'body' => substr($item->body->value, 0, 500) , 
           'id' =>  $item->id(),
           'img' => file_create_url($item->field_image->entity->getFileUri()),
-          'cat' => $item->field_category->value      
+          'cat' => $item->field_category->value,
+          'ingress' => $item->field_ingress->value,      
           ]
         ) ;
 

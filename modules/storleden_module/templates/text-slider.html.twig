@@ -33,7 +33,7 @@
                             <div style="display: table; margin: 0 auto;">
                                 <h3><a href="node/{{ node.id}}">{{ node.title}}</a></h3>
                             </div>
-                            <div class="item-text" >
+                            <div class="item-text" style="text-align:center;">
                                 {% filter striptags %}{{ node.body|raw }}{% endfilter %} ...
                             </div>
                         {% endif %}
@@ -58,7 +58,7 @@
                             <div style="display: table; margin: 0 auto;">
                                 <h3><a href="node/{{ node.id}}">{{ node.title}}</a></h3>
                             </div>
-                            <div class="item-text" >
+                            <div class="item-text" style="text-align:center;">
                                 {% filter striptags %}{{ node.body|raw }}{% endfilter %} ...
                             </div>
                         {% endif %}

@@ -26,4 +26,33 @@
 	    border: 1px solid #00b6e6;
 	    padding: 0px 5px 0px 5px;
 	}
+
+
+.over{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+	background-color: rgba(31, 174, 225, 0.89);
+    color: white;
+    text-align: left;
+	padding: 15px;
+	display:none;
+}
+
+.outer{
+	display: table;
+    margin: auto;
+
+}
+
+.over-title{
+	margin-top: 60px;
+	font-weight: 900;
+}
+
+.ingress{
+	margin-top: 36px;
+}
+
 }
